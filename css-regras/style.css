@@ -1,0 +1,55 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.imagem {
+    width: 200px; /* Ajusta o tamanho */
+    height: 200px; /* Ajusta o tamanho */
+    border-radius: 50%; /* Torna a imagem redonda */
+    border: 2px solid gray; /* Define a borda cinza */
+    transition: border-radius 0.3s; /* Adiciona uma transição suave */
+}
+
+.imagem:hover {
+    border-radius: 10%; /* Altera a borda para ficar com aparência quadrada e arredondada */
+}
+
+.menu {
+    padding: 10px;
+    border: 1px solid gray;
+    display: inline-block;
+    width: 200px; /* Defina a largura desejada */
+}
+  
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.menu li {
+    margin-bottom: 14px;
+}
+  
+.menu a {
+    display: block;
+    color: gray;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+  
+.menu a:hover {
+    color: white;
+}
+
+.menu li:hover {
+    background-color: rgb(50, 211, 117);
+}
+
+.menu a:hover {
+    transform: translateX(10px);
+  }

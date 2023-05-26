@@ -1,0 +1,40 @@
+.square {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.square2 {
+    width: 100px;
+    height: 100px;
+}
+
+.red2 {
+    background-color: red;
+}
+
+.blue2 {
+    background-color: blue;
+}
+
+.green2 {
+    background-color: green;
+}

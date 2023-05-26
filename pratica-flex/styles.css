@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.sidebar {
+    width: 100%;
+    max-width: 187px;
+    min-height: 100vh;
+    background: #172f70;
+}
+  
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ffffff; /* Adiciona uma borda inferior */
+    padding: 20px;
+  }
+  
+.pagina {
+    flex: 1;
+    background: linear-gradient(180deg, #00EEFD 0%, #0083FC 48.78%, #044C8F 74.83%, #080809 99.99%, #080809 100%, #080809 100%);
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 550px; /* Ajuste a altura mínima do card conforme necessário */
+    
+}
+  
+.person {
+    width: 200px;
+    margin: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha os elementos .person no topo da caixa */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+  
+.details {
+    margin-top: 10px;
+    margin-top: 10px;
+}
+  
+.details strong {
+    font-weight: bold;
+}
+  
+.details span {
+    display: block;
+    margin-top: 5px;
+}
+  
+button {
+    position: fixed;
+    width: 143px;
+    height: 47px;
+    left: 22px;
+    bottom: 20px;
+    background: linear-gradient(180deg, #05F000 13.14%, #000000 95.09%);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+button:hover {
+    background: linear-gradient(180deg, #05F000 13.14%, #000000 95.09%);
+}
+  
+.card img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover; /* ou object-fit: contain; fazendo as imagnes de outros formatos não perder a qualidade*/
+  border: 3px solid gainsboro;
+}
+
+.seguidores {
+    margin-top: auto; /* Move a div .seguidores para o final do container */
+    margin-top: 100px; /* Adiciona margem superior aos spans de seguidores */
+}
+
+.titulo h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
