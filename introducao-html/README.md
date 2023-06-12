@@ -1,4 +1,3 @@
-![](https://i.imgur.com/xG74tOh.png)
 
 # HTML: tags, atributos e valores
 
@@ -30,7 +29,4 @@ Nos exercícios será necessário:
 - Usar tags de video
 ---
 
-Preencha a checklist para finalizar o exercício:
--   [x] Forkar o repositório
 
-###### tags: `módulo 1` `front-end` `HTML`
