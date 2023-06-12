@@ -1,4 +1,4 @@
-![](https://i.imgur.com/xG74tOh.png)
+
 
 # CSS: Propriedades e mais regras de funcionamento
 
