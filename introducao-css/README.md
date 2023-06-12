@@ -1,4 +1,3 @@
-![](https://i.imgur.com/xG74tOh.png)
 
 # CSS: propósito, seletores e propriedades
 
@@ -19,19 +18,3 @@ https://www.w3schools.com/css/css_text.asp
 
 ---
 
-### Dicas
-
-Nos exercícios será necessário:
-
-- Usar tags de Titulo
-- Usar tags de paragrafo
-- Usar tags de divisões
-- Usar propriedades de estilização pra cor, texto, cor do fundo, altura, largura, espaçamento e disposição dos elementos na tela
-
----
-
-Preencha a checklist para finalizar o exercício:
-
-- [x] Forkar o repositório
-
-###### tags: `módulo 1` `front-end` `HTML`
